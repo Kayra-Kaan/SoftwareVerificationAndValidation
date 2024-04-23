@@ -1,6 +1,7 @@
 /*B231202350
 Kayra Kaan Kabakçıoğlu
 Software Verification and Validation - Homework 1
+https://github.com/Kayra-Kaan/SoftwareVerificationAndValidation
 */
 
 package org.example;
