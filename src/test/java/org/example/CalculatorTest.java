@@ -26,7 +26,7 @@ class CalculatorTest {
 
     @Test
     void testDivision1() {
-        assertEquals(2, Calculator.divide(10, 5));
+        assertEquals(5, Calculator.divide(10, 2));
     }
 
     @Test
@@ -50,7 +50,7 @@ class CalculatorTest {
     }
 
     @ParameterizedTest
-    @CsvSource({"10,5,2", "10,4,2.5", "12.5f, 2.5f, 5", "10, 2.5f, 4", "12.5f, 5, 2.5f"})
+    @CsvSource({"10,2,5", "10,4,2.5", "12.5f, 2.5f, 5", "10, 2.5f, 4", "12.5f, 5, 2.5f"})
     void testDivision(float a, float b, float expectedResult) {
         assertEquals(expectedResult, Calculator.divide(a,b), 0.001f);
     }
